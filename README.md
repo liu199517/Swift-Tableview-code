@@ -1,1 +1,7 @@
 # Swift-Tableview-code
+
+主要空攻克问题：
+通过数组的append(contentsOf:[NewString])方法来传递数据到第二个ViewController的TableVIew
+在第二个ViewController创建空数组用来接受数据
+使用UITableViewDelegate的didSelectedForRowAt方法:
+判断indexPath.section 和 indexPath.row的点击事件来push控制器。
